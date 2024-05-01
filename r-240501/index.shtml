@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="ch">  
+//modify information//
+<html>
+	<head>
+		<title>VG HomePage v1.5.0</title>
+		<style>
+			h1{
+				color:red;
+			}
+		</style>
+		<style>
+				body{
+					background-color:rgb(138,204,182);
+					color:rgb(138,204,182)
+				}
+		</style>
+		<meta charset="UTF-8">  
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+		<style>  
+  			body {  
+    		margin: 0;  
+    		padding: 0;  
+    		font-family: Arial, sans-serif;  
+  			}  
+  
+  			.navbar {  
+    		background-color:rgb(124,166,182);  
+    		overflow: hidden;  
+  			}  
+  
+  			.navbar a {  
+    		float: left;  
+    		display: block;  
+    		color: #f2f2f2;  
+    		text-align: center;  
+    		padding: 14px 16px;  
+    		text-decoration: none;  
+    		font-size: 17px;  
+  			}  
+
+			.navbar .brand {
+			font-size:24px;
+			padding:10px 0;
+			}
+  
+  			.navbar a:hover {  
+    		background-color: #ddd;  
+    		color: black;  
+  			}  
+  
+  			.navbar::after {  
+   		 content: "";  
+    		display: table;  
+    		clear: both;  
+  			}  
+			</style>  
+
+	</head>
+	<body>
+		<div class="navbar">
+		<a href="https://cn-vapegirl233.github.io/" class="brand">VG HomePage</a>
+  		<a href="index.shtml">主页</a>  
+  		<a href="share.shtml">共享</a>  
+  		<a href="update.shtml">更新</a>  
+  		<a href="https://github.com/cn-vapegirl233/cn-vapegirl233.github.io/">Github</a>  
+		<a href="debug.shtml">Debug</a>
+		<a href="download.shtml">下载</a>
+		
+		</div>  
+
+		<script type="text/javascript">
+			function showalert(QQ){
+				alert("QQ3179068910");
+			}
+		</script>
+			<button onclick="showalert(QQ)">QQ</button>
+			
+		<script type="text/javascript">
+			function showalert(email){
+				alert("邮箱bili-vapegirl233_official@hotmail.com");
+			}
+		</script>
+			<button onclick="showalert(email)">邮箱</button>
+			
+		<script type="text/javascript">
+			function showalert(bili){
+				alert("B站:注诛仙女233_,UID:619002007");
+			}
+		</script>
+			<button onclick="showMessage(bili)">B站</button>
+		<p>注：1.4.0未发布，所以直接跳过！</p>
+	</body>
+</html>

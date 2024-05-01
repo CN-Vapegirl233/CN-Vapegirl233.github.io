@@ -1,0 +1,16 @@
+<!DOCTYPE html>  
+<html>  
+<body>  
+  
+<button onclick="playAudio()">播放音频</button>  
+  
+<script>  
+function playAudio() {  
+    var base64Audio = "data:audio/mpeg;base64,bianma"
+    var audio = new Audio(base64Audio);  
+    audio.play();  
+}  
+</script>  
+  
+</body>  
+</html>
