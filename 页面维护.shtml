@@ -6,8 +6,20 @@
 					color:red
 				}
 		</style>
+		<style>
+				h2{
+					color:blue
+				}
+		</style>
+		<style>
+				h3{
+					color:gray
+				}
+		</style>
 	</head>
 	<body>
 		<h1><big><ul>页面维护</ul></big></h1>
+		<h2><big><ul>我们即将切换至更新的页面！！！</ul></big></h2>
+		<h3>若需要查看之前的页面，请前往<a href="https://github.com/CN-Vapegirl233/CN-vapegirl233.github.io/">GitHub</a>查看 <a href="https://github.com/CN-Vapegirl233/CN-Vapegirl233.github.io/tree/main/histories">Histories</a> 文件夹！</h3>
 	</body>
 </html>
