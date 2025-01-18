@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>计算e的值</title>
+    <title>ip转换至10进制</title>
     <script>
         function calculateE() {
             // 获取输入的值
@@ -16,20 +16,20 @@
             var e = a * Math.pow(2, 24) + b * Math.pow(2, 16) + c * Math.pow(2, 8) + d;
 
             // 显示结果
-            document.getElementById("result").innerText = "e的值为: " + e;
+            document.getElementById("result").innerText = "得出ip: http://" + e;
         }
     </script>
 </head>
 <body>
-    <h1>计算e的值</h1>
+    <h1>ip转换至10进制</h1>
     <form>
-        <label for="a">输入数字a:</label>
+        <label for="a">输入ip的第一个字段:</label>
         <input type="number" id="a" name="a"><br><br>
-        <label for="b">输入数字b:</label>
+        <label for="b">输入ip的第二个字段:</label>
         <input type="number" id="b" name="b"><br><br>
-        <label for="c">输入数字c:</label>
+        <label for="c">输入ip的第三个字段:</label>
         <input type="number" id="c" name="c"><br><br>
-        <label for="d">输入数字d:</label>
+        <label for="d">输入ip的第四个字段:</label>
         <input type="number" id="d" name="d"><br><br>
         <button type="button" onclick="calculateE()">计算</button>
     </form>
